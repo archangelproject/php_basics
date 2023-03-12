@@ -1,0 +1,23 @@
+{
+    "name": "aero.archangelproject/php_basics",
+    "description": "The basic code to handle users, sessions and database connections.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Archangel Project"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "aero.archangelproject\\php-basics\\": "src/"
+        },
+    "files": [
+        "styles/*.css"
+    ]
+    }
+}
